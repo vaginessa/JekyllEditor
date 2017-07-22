@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.co.a247a.jekylleditor.activities.OpenProject"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/breadCrums"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+                <Button
+                    android:id="@+id/open_project"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_open" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/FileFolderList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>

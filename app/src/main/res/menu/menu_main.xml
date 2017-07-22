@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.a247a.jekylleditor.activities.ProjectActivity">
+    <item
+        android:id="@+id/action_close"
+        android:orderInCategory="100"
+        android:title="@string/action_close"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_start"
+        android:orderInCategory="100"
+        android:title="@string/action_start"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_restart"
+        android:orderInCategory="100"
+        android:title="@string/action_restart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="100"
+        android:title="@string/action_stop"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

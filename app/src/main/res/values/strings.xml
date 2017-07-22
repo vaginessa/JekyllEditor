@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Jekyll Editor</string>
+
+    <string name="title_activity_project">Project</string>
+    <string name="action_start">Start Jekyll Server</string>
+    <string name="action_restart">Restart Jekyll Server</string>
+    <string name="action_stop">Stop Jekyll Server</string>
+    <string name="action_close">Close Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="action_open">Open</string>
+</resources>
